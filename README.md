@@ -1,3 +1,13 @@
+## Setup
+
+##### Show current configuration:
+```
+$ git config --list
+```
+##### Show repository configuration:
+```
+$ git config --local --list
+```
 
 
 <p align="center">
@@ -28,20 +38,31 @@ www.git-scm.com/download/mac
 
 **To learn configured user name and user email**
 
+```
 $ git config --global user.name 
-$ git config --global user.email
+```
+
+``` 
+$ git config --global user.email 
+```
 
 To see pathway
 
+``` 
 $ pwd
+```
 
 To see file content you are in
 
+```
 $ ls
+```
 
 Clear the terminal
 
-$ clear
+``` 
+$ clear 
+```
 
 To go xx pathway
 
