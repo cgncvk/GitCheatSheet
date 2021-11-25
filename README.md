@@ -473,4 +473,4 @@ $ git diff
 <img width="829" alt="Screen Shot 2021-11-23 at 01 41 11" src="https://user-images.githubusercontent.com/16895546/142945812-94bb9746-28fc-4503-ba7c-d9a776f92c83.png">
 </p>
 
-<p align="center">TABLE</p>
+<p align="center">TABLEQ</p>
