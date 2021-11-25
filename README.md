@@ -1,7 +1,7 @@
 ## <p align="center">Git Commands and Descriptions</p>
  
 
-**To install homebrew**
+:beer: **To install homebrew** 
 
 ```
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -19,137 +19,123 @@ $ brew --version
 $ git --version
 ```
 
-**To install git***
+:octocat:	**To install git** 
 
 ```
 $ brew install git
 ```
 
-**For brew version control***
+or download and install via installer [link](https://www.git-scm.com/download/mac).
 
-```
-$ brew --version
-```
-
-**See the available configurations***
+**See the available configurations**
 
 ```
 $ git config --list
 ```
 
-**Configurations process***
+**Configurations process**
 
 ```
-$ git config --global user.name ”your name”, $ git config --global user.email ”your email adress”
+$ git config --global user.name ”your name”, 
 ```
-
-**Configurations process***
 
 ```
 $ git config --global user.email ”your email adress”
 ```
 
-**Alternative*** download and install via installer
-
-www.git-scm.com/download/mac
-
-**To learn configured user name and user email***
+**To learn configured user name and user email**
 
 ```
 $ git config --global user.name 
 ```
 
-**To see pathway***
+**To see pathway**
 
 ```
 $ pwd
 ```
 
-**To see file content you are in***
+**To see file content you are in**
 
 ```
 $ ls
 ```
 
-**Clear the terminal***
+**Clear the terminal**
 
 ``` 
 $ clear 
 ```
 
-**To go xx pathway***
+**To go "xx" pathway**
 
 ```
 $ cd xx
 ```
 
-**To see the hidden files***
+**To see the hidden files**
 
 ```
 $ ls -a
 ```
 
-**To go previous pathway***
+**To go previous pathway**
 
 ```
 $ cd ..
 ```
 
-**To make an “xx” directory ***
+**To make an “xx” directory**
 
 ```
 $ mkdir xx
 ```
 
-**Create an a.xx file***
+**Create an "a.xx" file**
 
 ```
 $ touch a.xx
 ```
 
-**Add something from terminal to inside of a.xx file***
+**Add something from terminal to inside of "a.xx" file**
 
 ```
 $ vi a.xx
 ```
 
-**and
+and push the “i” button **for exit**, first push the “ESC” button and then “colon (:)” button. After that write “wq” and push “enter (return)”.
 
-**push the “i” button
-
-**for exit, first push the “ESC” button and then “colon (:)” button. After that write “wq” and push “enter (return)”
-
-**For open the a.xx file on süblime text
+**For open the "a.xx" file on süblime text**
 
 ```
 $ subl a.xx
 ```
 
-**For open in the vs code***
+**For open "a.xx" in the vs code**
 
 ```
 $ code . a.xx
 ```
 
-**For remove the a.xx file***
+**For remove the "a.xx" file**
 
 ```
 $ rm a.xx
 ```
 
-**For remove the all the folder you are in***
+**For remove the all the folder you are in**
 
 ```
 $ rm -r
 ```
 
-**Create a “xx” named folder***
+**Create a “xx” named folder**
 
 ```
 $ mkdir xx
 ```
 
-**Create git repository in folder***
+**Create git repository in folder**
 
 ```
 $ git init
@@ -157,19 +143,19 @@ $ git init
 
 **Staging area indexleme alanıdır.**
 
-**To learn commit, branch status and newly created contents***
+**To learn commit, branch status and newly created contents**
 
 ```
 $ git status
 ```
 
-**Create “aa” named txt or desired extention file***
+**Create “aa” named txt or desired extention file**
 
 ```
 $ touch aa.txt
 ```
 
-**Create “aa” named txt or desired extention file in “xxx” directory***
+**Create “aa” named txt or desired extention file in “xxx” directory**
 
 ```
 $ touch xxx/aa.txt
@@ -199,31 +185,31 @@ $ git add .
 $ git log
 ```
 
-**For simpler report, see the commits***
+**For simpler report, see the commits**
 
 ```
 $ Git log --oneline
  ```
 
-**Save file content to local repository from staging area with “first commit” note in master branch***
+**Save file content to local repository from staging area with “first commit” note in master branch**
 
 ```
 $ git commit -m"First commit"
 ```
 
-**Go to xx commit***
+**Go to xx commit**
 
 ```
 $ git reset “xx commit id” --hard
 ```
 
-**Bring xx commit staging area***
+**Bring xx commit staging area**
 
 ```
 $ git reset “xx commit id” --soft
 ```
 
-**Deleting the change made in the commit/version***
+**Deleting the change made in the commit/version**
 
 ```
 $ git revert “xx commit id”
