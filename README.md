@@ -474,3 +474,5 @@ $ git diff
 </p>
 
 <p align="center">TABLE</p>
+
+https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
