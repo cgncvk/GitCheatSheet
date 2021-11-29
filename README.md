@@ -8,6 +8,8 @@
 
 <p align="center">Cheatsheet</p>
 
+### <p align="center">Some Details</p>
+
 
 :beer: **To install homebrew** 
 
