@@ -397,6 +397,9 @@ For readme standart syntax rules [link](https://docs.github.com/en/github/writin
 
 For create tables on readme standart syntax rules [link](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables)
 
+Emoji list [link](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+
+
 **Stash**
 
 The git stash command takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy.
@@ -478,4 +481,3 @@ $ git diff
 
 
 
-https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
