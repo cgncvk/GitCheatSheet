@@ -1,6 +1,14 @@
 ## <p align="center">Git Commands and Descriptions</p>
  
 
+
+<p align="center">
+<img width="829" alt="Screen Shot 2021-11-23 at 01 41 11" src="https://user-images.githubusercontent.com/16895546/142945812-94bb9746-28fc-4503-ba7c-d9a776f92c83.png">
+</p>
+
+<p align="center">Cheatsheet</p>
+
+
 :beer: **To install homebrew** 
 
 ```
@@ -141,7 +149,7 @@ $ mkdir xx
 $ git init
 ```
 
-**Staging area indexleme alanıdır.**
+The staging area can be considered as the indexing area.
 
 **To learn commit, branch status and newly created contents**
 
@@ -161,25 +169,25 @@ $ touch aa.txt
 $ touch xxx/aa.txt
 ```
 
-**Add aa file to staging area***
+**Add aa.txt file to staging area**
 
 ```
 $ git add aa.txt
 ```
 
-**Remove aa file from staging area(transfer to untracked files***
+**Remove aa.txt file from staging area(transfer to untracked files**
 
 ```
 $ git rn –cached aa.txt
 ```
 
-**Send all files in folder to staging area for indexing***
+**Send all files in folder to staging area for indexing**
 
 ```
 $ git add .
 ```
 
-**See the log, see the commits***
+**See the log, see the commits**
 
 ```
 $ git log
@@ -265,27 +273,25 @@ $ git merge feature
 
 **Github registration**
 
-Select public repository and fill personal informations, mail verification
+- Select public repository and fill personal informations, mail verification
 
-Click new repository, fill repository name, give description optionally
+- Click new repository, fill repository name, give description optionally, Select public or private
 
-Select public or private
+- Add README
 
-Add README
+- Add gitignore. , add license and create repository
 
-Add gitignore. , add license and create repository
+- Copy the https link
 
-Copy the https link
-
-Save files and commits to remote repository in “xxx” branch
+**Save files and commits to remote repository in “xxx” branch**
 
 ```
 $ git push "paste https link here" xxx
 ```
 
-fill user name and password
+then fill user name and password
 
-Save https link to repository as “origin” nickname
+**Save https link to repository as “origin” nickname**
 
 ```
 $ git remote add origin ”paste link here”
@@ -311,31 +317,31 @@ $ git clone “paste https of repository”
 
 Create pull request as contributer and merge pull request as manager
 
-To fork a repository
+**To fork a repository**
 
-Via click manually fork any project to own account
+- Via click manually fork any project to own account
 
-If modification is necessary modify
+- If modification is necessary modify
 
-Do all previous processes the same way on forked project’s https adress
+- Do all previous processes the same way on forked project’s https adress
 
-Create pull request to forked repository of original
+**Create pull request to forked repository of original**
 
-After modify on forked repository click new pull request
+- After modify on forked repository click new pull request
 
-Click create pull request, give title and make comment 
+- Click create pull request, give title and make comment 
 
-To handle pull requests 
+**To handle pull requests**
 
-Click pull requests
+- Click pull requests
 
-For review the changes made, click files changed
+- For review the changes made, click files changed
 
-We can make comment and submit review to other editors
+- We can make comment and submit review to other editors
 
-via the merge pull request and then confirm merge we can complete merging 
+- via the merge pull request and then confirm merge we can complete merging 
 
-Save new modifications on remote repository to local repository
+**Save new modifications on remote repository to local repository**
 
 Also we can create new file button, necessary modifications and click Commit new file with description and then
 
@@ -350,7 +356,7 @@ For copy we need to,
 $ git merge “https adress/”branch name”
 ```
 
-Save new modifications on remote repository to local repository
+**Save new modifications on remote repository to local repository**
 
 Also we can create new file button, necessary modifications and click Commit new file with description and then
 
@@ -366,11 +372,11 @@ $ git pull “https adress/”branch name”
 $ touch .gitignore
 ```
 
-1-For hide files
+**For hide files**
 
 Write the files and directories you want to hide into the .gitignore file 
 
-Don’t hide “aa.php” file, except all other files in same “bb” directory 
+**Don’t hide “aa.php” file, except all other files in same “bb” directory**
 
 In the .gitignore file write,
 
@@ -427,11 +433,11 @@ $ git stash pop
 $ git stash pop “stash id”
 ```
 
-Alias 
+**Alias**
 
 For add a shorthand for a common Git command or set of Git commands
 
-To use status command as st
+**To use status command as st**
 
 ```
 $ git config --global alias.st status
@@ -469,10 +475,5 @@ $ git diff
 
 
 
-<p align="center">
-<img width="829" alt="Screen Shot 2021-11-23 at 01 41 11" src="https://user-images.githubusercontent.com/16895546/142945812-94bb9746-28fc-4503-ba7c-d9a776f92c83.png">
-</p>
-
-<p align="center">TABLEQ</p>
 
 https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
