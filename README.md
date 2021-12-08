@@ -3,10 +3,10 @@
 
 
 <p align="center">
-<img width="829" alt="Screen Shot 2021-11-23 at 01 41 11" src="https://user-images.githubusercontent.com/16895546/142945812-94bb9746-28fc-4503-ba7c-d9a776f92c83.png">
+<img width="829" alt="git-commands-cheat-sheet" src="https://user-images.githubusercontent.com/16895546/145225896-6df3c355-c9f9-4069-b08b-bae865a5cc9a.png">
 </p>
-
 <p align="center">Cheatsheet</p>
+
 
 ### <p align="center">Some Details</p>
 
